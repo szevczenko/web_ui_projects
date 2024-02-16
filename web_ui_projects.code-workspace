@@ -1,0 +1,36 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+    ],
+    "settings": {
+        "terminal.integrated.env.windows": {
+            "PATH": "${env:PATH};C:\\msys64\\ucrt64\\bin",
+            "OPENOCD_SCRIPTS": "${workspaceFolder}/../esp_tools/tools/openocd-esp32/v0.11.0-esp32-20220706/openocd-esp32/share/openocd/scripts",
+            "CHERE_INVOKING": "1",
+        },
+        "terminal.integrated.profiles.windows": {
+            "MSYS2 Bash": {
+                "path": "C:\\msys64\\usr\\bin\\bash.exe",
+                "args": [
+                    "--login",
+                    "-i"
+                ],
+                "env": {
+                    "MSYSTEM": "UCRT64",
+                    "CHERE_INVOKING": "1",
+                    "MSYS2_PATH_TYPE": "inherit"
+                }
+            },
+        },
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "files.associations": {
+        },
+        "cSpell.words": [
+            "Dmytro",
+            "lwjson",
+            "Shevchenko"
+        ],
+    }
+}
